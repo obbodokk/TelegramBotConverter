@@ -22,5 +22,5 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/ваш-логин/telegram-file-converter-bot.git
-cd telegram-file-converter-bot
+git clone https://github.com/obbodokk/TelegramBotConverter.git
+cd TelegramBotConverter
