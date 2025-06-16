@@ -1,0 +1,29 @@
+[admin]
+username = "obbodokk"
+first_name = "Даниил"
+
+[paths]
+data_dir = "data_storage"
+logs_dir = "data_storage/logs"
+all_users_logs_dir = "data_storage/all_users_logs"
+media_dir = "data_storage/media"
+geo_dir = "data_storage/geo"
+backup_dir = "data_storage/backups.zip"
+hello_dir = "data_storage/hello.txt"
+users = "users.csv"
+about = "about.json"
+config_json = "config.json"
+config_py = "config.py"
+
+[api]
+weather = "WEATHER_API_KEY"
+file_converter = "ZAMZAR_API_KEY"
+yandex_disk = "YANDEX_OAUTH_TOKEN"
+
+[commands]
+user = [ "/start", "/help", "/weather", "/voice", "/roll",]
+admin = [ "/stats", "/logs",]
+
+[backup]
+interval_hours = 6
+yandex_folder = "tg_bot_backups"
