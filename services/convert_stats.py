@@ -1,7 +1,7 @@
 import os
 import csv
 from datetime import datetime
-from config import DATA_DIR, STATS_FILE
+from config import STATS_FILE
 
 
 def stats_file():

@@ -14,7 +14,7 @@ def start_handlers(bot):
         log_user_message(user_id, username, "/start")
 
         if user_check(user_id):
-            bot.send_message(message.chat.id, "*Рад снова видеть тебя\\❗️Какую задачу выполнить❓*", parse_mode='MarkdownV2')
+            bot.send_message(message.chat.id, "*Рад снова видеть тебя\\! Какую задачу выполнить?*", parse_mode='MarkdownV2')
         else:
             bot.send_message(message.chat.id, f"Привет, {first_name or 'пользователь'}!")
 

@@ -5,7 +5,7 @@ from config import ZAMZAR_API_KEY, MEDIA_DIR
 from utils.logger import log_user_message
 from services.convert_stats import log_of_convertation
 
-def handle_conversion(bot, message, source_format, target_format):
+def convert_handle(bot, message, source_format, target_format):
     chat_id = message.chat.id
     user_id = message.from_user.id
     username = message.from_user.username

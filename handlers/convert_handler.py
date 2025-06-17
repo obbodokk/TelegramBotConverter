@@ -1,5 +1,5 @@
 from telebot import types
-from services.convert_service import handle_conversion
+from services.convert_service import convert_handle
 import time
 
 user_states = {}
@@ -289,7 +289,7 @@ def convert_handler(bot):
     
         safe_delete_messages(bot, chat_id)
         
-        handle_conversion(bot, message, source_format, target_format)
+        convert_handle(bot, message, source_format, target_format)
         
         try:
             bot.delete_message(chat_id, message.message_id)
