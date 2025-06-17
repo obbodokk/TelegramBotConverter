@@ -47,18 +47,18 @@ obbodokk, Обод Даниил
 ## Сторонние API
 
 - `Zamzar API` - API для конвертации файлов различных форматов
-- Ссылка: https://developers.zamzar.com/ 
-- В config - ZAMZAR_API_KEY
+  - Ссылка: https://developers.zamzar.com/ 
+  - В config - ZAMZAR_API_KEY
 
 - `Weather API` - API для получения погоды 
-- Ссылка: https://openweathermap.org/api
-- В config - WEATHER_API_KEY
+  - Ссылка: https://openweathermap.org/api
+  - В config - WEATHER_API_KEY
 
 ## Сторонние протоколы
 
 - `YANDEX WEBDAV` - Yandex WebDAV — это способ доступа к Яндекс.Диску как к сетевой папке через стандартный протокол WebDAV (аналог FTP, но поверх HTTP).
-- Ссылка: "https://webdav.yandex.ru" 
-- В config - YANDEX_WEBDAV_URL, YANDEX_LOGIN, YANDEX_WEBDAV_PASSWORD, YANDEX_BACKUP_FOLDER  
+  - Ссылка: "https://webdav.yandex.ru" 
+  - В config - YANDEX_WEBDAV_URL, YANDEX_LOGIN, YANDEX_WEBDAV_PASSWORD, YANDEX_BACKUP_FOLDER  
 
 ## Материалы которыми пользловался
 
