@@ -38,37 +38,37 @@ obbodokk, Обод Даниил
   
 ## Сторонние бибиотеки для Python 3.13
 
-pyTelegramBotAPI==4.27.0
-python-dotenv==1.1.0
-requests==2.32.4
-schedule==1.2.2
-vosk==0.3.45
+`pyTelegramBotAPI`==4.27.0
+`python-dotenv`==1.1.0
+`requests`==2.32.4
+`schedule`==1.2.2
+`vosk`==0.3.45
 
 ## Сторонние API
 
-Zamzar API - API для конвертации файлов различных форматов
+`Zamzar API` - API для конвертации файлов различных форматов
 Ссылка: https://developers.zamzar.com/ 
 В config - ZAMZAR_API_KEY
 
-Weather API - API для получения погоды 
+`Weather API` - API для получения погоды 
 Ссылка: https://openweathermap.org/api
 В config - WEATHER_API_KEY
 
 ## Сторонние протоколы
 
-YANDEX WEBDAV - Yandex WebDAV — это способ доступа к Яндекс.Диску как к сетевой папке через стандартный протокол WebDAV (аналог FTP, но поверх HTTP).
+`YANDEX WEBDAV` - Yandex WebDAV — это способ доступа к Яндекс.Диску как к сетевой папке через стандартный протокол WebDAV (аналог FTP, но поверх HTTP).
 Ссылка: "https://webdav.yandex.ru" 
 В config - YANDEX_WEBDAV_URL, YANDEX_LOGIN, YANDEX_WEBDAV_PASSWORD, YANDEX_BACKUP_FOLDER  
 
 ## Материалы которыми пользловался
 
-ZamzarApi - https://developers.zamzar.com/docs
+`ZamzarApi` - https://developers.zamzar.com/docs
 
-pyTelegramBotApi - https://pypi.org/project/pyTelegramBotAPI/, https://pytba.readthedocs.io/ru/latest/
+`pyTelegramBotApi` - https://pypi.org/project/pyTelegramBotAPI/, https://pytba.readthedocs.io/ru/latest/
 
-Vosk - https://alphacephei.com/vosk/index.ru
+`Vosk` - https://alphacephei.com/vosk/index.ru
 
-Yandex WebDav - https://yandex.ru/dev/disk/doc/ru/, 
+`Yandex WebDav` - https://yandex.ru/dev/disk/doc/ru/, 
 
 ## 🛠 Установка
 
