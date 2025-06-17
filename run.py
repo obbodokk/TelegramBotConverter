@@ -11,7 +11,7 @@ from handlers.cat_handler import cat_handler
 from handlers.convert_handler import convert_handler
 from handlers.vosk_handler import voice_handlers
 from services.scheduler import start_scheduler
-from services.yandex_webdav_backup import backup_to_yandex_disk
+
 
 bot = telebot.TeleBot(TOKEN)
 
