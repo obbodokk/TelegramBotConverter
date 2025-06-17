@@ -12,6 +12,7 @@ from handlers.convert_handler import convert_handler
 from handlers.vosk_handler import voice_handlers
 from services.scheduler import start_scheduler
 
+
 bot = telebot.TeleBot(TOKEN)
 
 os.makedirs(LOGS_DIR, exist_ok=True)
